@@ -2,7 +2,7 @@
 
 ## **Junior Frontend & Backend Developer**
 
-## [**Contacts:**](#Contacts)
+## [**Contacts:**][def]
 * *Phone:* +79969597971
 * *Email:* <nikitinnv94@gmail.com>
 * *GitHub:* https://github.com/NikitinNikita94
@@ -16,16 +16,16 @@
 
 **At the moment I didn't have a chance to work as a developer, but I have educational (Pet) projects!**
 
-## [***Skills:***](#skills)
+## [***Skills:***][def2]
 1. *HTML & CSS.*
 2. *Version control: Git (GitHub Pages),Bitbucket.*
-3. *Java: OOP,Functional Programming,Spring fraemworks.*
+3. *Java: OOP,Functional Programming,Spring framework.*
 4. *Javascript: Fundamentals Programming & JSON.*
 5. *Linux Os: UBUNTU.*
 6. *Editors code: IntelliJ IDE, VsCode.*
 7. *Terminal operation.*
 
-## [**Example code:**](#example-code)
+## [**Example code:**][def3]
 **Data revers: A stream of data is received and needs to be reversed.**
 
 ```
@@ -41,7 +41,7 @@ function dataReverse(data) {
 }
 ```
 
-## [**Education:**](#education)
+## [**Education:**][def4]
 * Sberbank Corporate University : from scratch to your client server application in Java (2021-2022).
 * Stepik: [Interactive SQL Simulator](https://stepik.org/course/63054/syllabus)
 * [JavaRush:](https://javarush.com/me) 22 LvL & 533 Rating.
@@ -53,3 +53,8 @@ function dataReverse(data) {
 ## Languages:
 * Russian: Native speaker.
 * English: Pre/Intermediate - A2.
+
+[def]: #Contacts
+[def2]: #skills
+[def3]: #example-code
+[def4]: #education
