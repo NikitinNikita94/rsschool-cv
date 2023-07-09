@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Nikitin Nikita">
+    <meta name="keywords" content="HTML, CSS, Resume">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <ul class="navbar_menu">
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+            <div class="about_me">
+                <img src="./img/photo_2021-10-08_23-43-09.jpg" alt="Avatar" class="about_img">
+                <div class="about_container">
+                    <h1 class="about_name">NIKITIN NIKITA</h1>
+                    <h2 class="about_profession">Junior Frontend &amp; Backend Developer</h2>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="main_section-left">
+                <div id="contact" class="contacts">
+                    <h2 class="contacts_title">Contacts:</h2>
+                    <ol class="contacts_list">
+                        <li><a href="tel:+79969597971" >Phone: +79969597971</a></li>
+                        <li><a href="nikitinnv94@gmail.com">Email: nikitinnv94@gmail.com</a></li>
+                        <li><a href="ttps://github.com/NikitinNikita94">GitHub: https://github.com/NikitinNikita94</a></li>
+                        <li><a href="@GhoustDog">Telegram: @GhoustDog</a></li>
+                        <li><a href="https://vk.com/wu.warrior">Vk: https://vk.com/wu.warrior</a></li>
+                    </ol>
+                </div>
+                <div class="example_code">
+                    <h2 class="title_information">Example code:</h2>
+                    <pre class="code">
+                        <code>
+function dataReverse(data) {
+    if (data.length===0) return []
+    const arrayBytes = [];
+    const tam = data.length / 8;
+    for (var i = 0; i &lt; tam; i++) {
+        arrayBytes.push(data.splice(0,8));
+    }
+    
+    return arrayBytes.reverse().join().split(&quot;,&quot;).map(v=&gt;v*1);
+}
+                        </code>
+                    </pre>
+                </div>
+                <div class="languages">
+                    <h2 class="title_information">Languages:</h2>
+                    <ul class="contacts_list">
+                        <li>Russian: Native speaker.</li>
+                        <li>English: Pre/Intermediate - A2</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main_section-right">
+                    <div class="information">
+                        <h2 class="title_information">Brief information about myself:</h2>
+                        <div class="title_information-text">
+                            My goal is to become a senior developer and create a cool product, which will be used by millions of people.I am quite sociable, well accept criticism in his side, as well as hardworking person.<br><br>
+                            I love to learn and learn new things, whether it's technology or a new programming language. <br><br>
+                            At the moment I didn't have a chance to work as a developer, but I have educational (Pet) projects!
+                        </div>
+                    </div>
+                    <br>
+                    <div id="skill" class="skills">
+                        <h2 class="title_information">Skills:</h2>
+                        <ul class="skill_list">
+                            <li>HTML & CSS</li>
+                            <li>Version control: Git (GitHub Pages),Bitbucket</li>
+                            <li>Java: OOP,Functional Programming,Spring framework</li>
+                            <li>Javascript: Fundamentals Programming & JSON</li>
+                            <li>Linux Os: UBUNTU</li>
+                            <li>Editors code: IntelliJ IDE, VsCode</li>
+                            <li>Terminal operation</li>
+                        </ul>
+                    </div>
+                    <div id="education" class="education">
+                        <h2 class="title_information">Education:</h2>
+                        <ol class="education_list">
+                            <li>Sberbank Corporate University : from scratch to your client server application in Java (2021-2022).</li>
+                            <li>Stepik: <a href="https://stepik.org/course/63054/syllabus">Interactive SQL Simulator</a></li>
+                            <li>JavaRush: <a href="https://javarush.com/me">22 LvL & 533 Rating</a></li>
+                            <li><a href="https://www.freecodecamp.org/">FreeCodeChamp</a>
+                                <ol class="education_list-two">
+                                    <li>Responsive Web Design Certification</li>
+                                    <li>Javascript Algorithms and Data Structures Certification</li>
+                                </ol>
+                            </li>
+                            <li>Digital Lectures of Gazprombank</li>
+                        </ol>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="Logo"></a>
+            <span>2023 by Nikitin Nikita</span>
+        </footer>
+    </div>
+</body>
+</html>
